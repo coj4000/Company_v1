@@ -7,10 +7,9 @@ namespace Sandbox
 {
     class Worker : Employee
     {
-        private string skill;
+        protected string skill;
         public Worker(string name, int salaryPerMonth, string skill) : base(name, salaryPerMonth)
         {
-            
         }
     }
 }
